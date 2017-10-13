@@ -1,0 +1,81 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css");
+@import url("carousel.css");
+
+
+
+/* FOOTER
+-------------------------------------------------- */
+footer a {
+ color: #5a5a5a;
+}
+
+.link-inverse,
+.link-inverse:hover,
+.link-inverse:focus{
+  color: white;
+}
+
+.footer-text {
+  color: rgba(255,255,255,.5);
+  margin: 0;
+}
+
+.back-to-top {
+  font-size: 1.5rem;
+}
+
+
+/* CUSTOMIZE BOOTSTRAP
+-------------------------------------------------- */
+
+.icon {
+  height: 40px;
+  margin-right: 10px;
+}
+.btn-outline-success {
+    color: #e24940;
+    background-image: none;
+    background-color: transparent;
+    border-color: #e24940;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #e24940;
+    border-color: #e24940;
+}
+
+/* CUSTOM CSS
+-------------------------------------------------- */
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  z-index: 1000;
+  height: 200px;
+  width: auto;
+  
+}
+
+.embed-responsive {
+  min-height: 3000px;
+}
+
+.custom-divider {
+    border: 0;
+    border-top: 2px solid #e24940;
+    max-width: 150px;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  
+}
+
+@media (min-width: 62em) {
+  
+}
