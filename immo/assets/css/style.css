@@ -72,10 +72,12 @@ footer a {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
+@media (max-width: 767px) {
   
-}
-
-@media (min-width: 62em) {
-  
+  .logo {
+    height: auto;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
 }

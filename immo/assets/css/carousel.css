@@ -7,6 +7,27 @@ body {
   color: #5a5a5a;
 }
 
+/* SLIDES
+-------------------------------------------------- */
+
+#first-slide {
+  background-image: url(/assets/img/pan.jpg)
+}
+
+#second-slide {
+  background-image: url(/assets/img/uecker.jpg)
+}
+
+#third-slide {
+  background-image: url(/assets/img/pwskyline.jpg)
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -24,7 +45,7 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-.carousel-item {
+.carousel-inner {
   height: 32rem;
   background-color: #777;
 }
@@ -92,5 +113,11 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-inner{
+    height: 15rem;
   }
 }
